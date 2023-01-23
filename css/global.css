@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section .container, html body header .container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+#portfolio .container .all-projects .project-content .modal .info .info-box h5, #portfolio .container .backend-projects .project-content .modal .info .info-box h5, #portfolio .container .frontend-projects .project-content .modal .info .info-box h5, #portfolio .container .categories li, section .container .info-block .about-me-info .info-group .key, html body header .container .flex-block nav ul li .nav-link, #portfolio .container .all-projects .project-content .modal .modal-btns .btn, #portfolio .container .backend-projects .project-content .modal .modal-btns .btn, #portfolio .container .frontend-projects .project-content .modal .modal-btns .btn, section .container .info-block .about-me-info .cv-btn {
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#portfolio .container .all-projects .project-content .modal .info .info-box span, #portfolio .container .backend-projects .project-content .modal .info .info-box span, #portfolio .container .frontend-projects .project-content .modal .info .info-box span, section .container .info-block .about-me-info .info-group .value {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+  text-transform: none;
+}
+
+.right-side .internship-block p, .right-side .horizontal-block .skills-box p, .left-side p, #portfolio .container .all-projects .project-content .modal .description, #portfolio .container .backend-projects .project-content .modal .description, #portfolio .container .frontend-projects .project-content .modal .description, section .container .info-block .about-me-info p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+  text-transform: none;
+  line-height: 1.5;
+}
+
+.right-side .internship-block span, .right-side .internship-block .flex-box span, #portfolio .container .all-projects .project-content .project-box .project-date, #portfolio .container .backend-projects .project-content .project-box .project-date, #portfolio .container .frontend-projects .project-content .project-box .project-date {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.right-side .internship-block .flex-box h3, .right-side .horizontal-block .skills-box h3, #portfolio .container .all-projects .project-content .project-box .project-name, #portfolio .container .backend-projects .project-content .project-box .project-name, #portfolio .container .frontend-projects .project-content .project-box .project-name {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.main-title {
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#portfolio .container .all-projects .project-content .modal .title, #portfolio .container .backend-projects .project-content .modal .title, #portfolio .container .frontend-projects .project-content .modal .title, section .container .info-block .about-me-info h2 {
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  text-transform: none;
+  font-weight: 700;
+}
+
+#portfolio .container .all-projects .project-content .modal .modal-btns .btn, #portfolio .container .backend-projects .project-content .modal .modal-btns .btn, #portfolio .container .frontend-projects .project-content .modal .modal-btns .btn, section .container .info-block .about-me-info .cv-btn {
+  max-width: 150px;
+  width: 100%;
+  height: 40px;
+  background-color: #3333ff;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    top: 20%;
+  }
+  100% {
+    top: 50%;
+    opacity: 1;
+  }
+}
+@keyframes bg-drop {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #efefef;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #b7b7b7;
+  border-radius: 5px;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+  z-index: 101;
+  opacity: 0.7;
+  display: none;
+  animation: bg-drop 0.3s linear forwards;
+}
+
+.db {
+  display: block;
+}
+
+.dn {
+  display: none;
+}
+
+.blue-point {
+  color: #3333ff;
+}
+
+.st0 {
+  fill: none;
+}
+
+.st1 {
+  fill: none;
+  stroke: #efefef;
+  stroke-width: 7;
+  stroke-miterlimit: 10;
+}
+
+.blue-stroke {
+  stroke: #3333ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  position: relative;
+}
+html body.modal-open {
+  overflow-y: hidden;
+}
+html body header {
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px rgba(37, 37, 37, 0.1);
+}
+html body header .container .flex-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html body header .container .flex-block .name-title {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+html body header .container .flex-block nav ul {
+  display: flex;
+  gap: 40px;
+}
+html body header .container .flex-block nav ul li .nav-link {
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+html body header .container .flex-block nav ul li .nav-link:hover {
+  color: #3333ff;
+}
+html body header .container .flex-block nav ul li .nav-link.active {
+  color: #3333ff;
+}
+
+#hello {
+  padding-top: 124px;
+}
+
+section {
+  padding: 40px 0;
+}
+section .container .info-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container .info-block .about-me-info {
+  max-width: 550px;
+  width: 100%;
+}
+section .container .info-block .about-me-info p {
+  margin: 10px 0 20px;
+}
+section .container .info-block .about-me-info .info-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+section .container .info-block .about-me-info .info-group:nth-child(6) {
+  margin-bottom: 20px;
+}
+section .container .info-block .about-me-info .info-group .key {
+  width: 90px;
+}
+section .container .info-block .about-me-info .info-group .phone, section .container .info-block .about-me-info .info-group .email {
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+section .container .info-block .about-me-info .info-group .phone:hover, section .container .info-block .about-me-info .info-group .email:hover {
+  color: #3333ff;
+}
+section .container .info-block .about-me-info .info-group .social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+}
+section .container .info-block .about-me-info .info-group .social-icons i {
+  font-size: 14px;
+  color: #333333;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+section .container .info-block .about-me-info .info-group .social-icons i:hover {
+  color: #3333ff;
+}
+section .container .info-block .about-me-info .cv-btn {
+  color: #ffffff;
+}
+section .container .info-block .about-me-info .cv-btn:hover {
+  box-shadow: 10px 10px 20px rgba(51, 51, 255, 0.2);
+}
+section .container .info-block .my-img {
+  max-width: 570px;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+#portfolio .container .categories {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px 0 22px;
+  gap: 40px;
+}
+#portfolio .container .categories li {
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+#portfolio .container .categories li:hover {
+  color: #3333ff;
+}
+#portfolio .container .categories li.active {
+  color: #3333ff;
+}
+#portfolio .container .all-projects, #portfolio .container .backend-projects, #portfolio .container .frontend-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36.6px;
+}
+#portfolio .container .all-projects.active, #portfolio .container .backend-projects.active, #portfolio .container .frontend-projects.active {
+  display: block;
+  display: flex;
+}
+#portfolio .container .all-projects.db, #portfolio .container .backend-projects.db, #portfolio .container .frontend-projects.db {
+  display: block;
+}
+#portfolio .container .all-projects.dn, #portfolio .container .backend-projects.dn, #portfolio .container .frontend-projects.dn {
+  display: none;
+}
+#portfolio .container .all-projects .project-content .project-box, #portfolio .container .backend-projects .project-content .project-box, #portfolio .container .frontend-projects .project-content .project-box {
+  max-width: 270px;
+  width: 100%;
+  cursor: pointer;
+}
+#portfolio .container .all-projects .project-content .project-box:hover .project-img img, #portfolio .container .backend-projects .project-content .project-box:hover .project-img img, #portfolio .container .frontend-projects .project-content .project-box:hover .project-img img {
+  transform: scale(1.2);
+}
+#portfolio .container .all-projects .project-content .project-box:hover .project-name, #portfolio .container .backend-projects .project-content .project-box:hover .project-name, #portfolio .container .frontend-projects .project-content .project-box:hover .project-name {
+  color: #3333ff;
+}
+#portfolio .container .all-projects .project-content .project-box .project-img, #portfolio .container .backend-projects .project-content .project-box .project-img, #portfolio .container .frontend-projects .project-content .project-box .project-img {
+  max-width: 100%;
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+}
+#portfolio .container .all-projects .project-content .project-box .project-img img, #portfolio .container .backend-projects .project-content .project-box .project-img img, #portfolio .container .frontend-projects .project-content .project-box .project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+#portfolio .container .all-projects .project-content .project-box .project-img .hortensia, #portfolio .container .all-projects .project-content .project-box .project-img .vaccine, #portfolio .container .all-projects .project-content .project-box .project-img .portfolio, #portfolio .container .all-projects .project-content .project-box .project-img .travel, #portfolio .container .all-projects .project-content .project-box .project-img .delux, #portfolio .container .all-projects .project-content .project-box .project-img .react-form, #portfolio .container .backend-projects .project-content .project-box .project-img .hortensia, #portfolio .container .backend-projects .project-content .project-box .project-img .vaccine, #portfolio .container .backend-projects .project-content .project-box .project-img .portfolio, #portfolio .container .backend-projects .project-content .project-box .project-img .travel, #portfolio .container .backend-projects .project-content .project-box .project-img .delux, #portfolio .container .backend-projects .project-content .project-box .project-img .react-form, #portfolio .container .frontend-projects .project-content .project-box .project-img .hortensia, #portfolio .container .frontend-projects .project-content .project-box .project-img .vaccine, #portfolio .container .frontend-projects .project-content .project-box .project-img .portfolio, #portfolio .container .frontend-projects .project-content .project-box .project-img .travel, #portfolio .container .frontend-projects .project-content .project-box .project-img .delux, #portfolio .container .frontend-projects .project-content .project-box .project-img .react-form {
+  object-position: left;
+}
+#portfolio .container .all-projects .project-content .project-box .project-name, #portfolio .container .backend-projects .project-content .project-box .project-name, #portfolio .container .frontend-projects .project-content .project-box .project-name {
+  text-transform: none;
+  margin: 12px 0;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+#portfolio .container .all-projects .project-content .modal, #portfolio .container .backend-projects .project-content .modal, #portfolio .container .frontend-projects .project-content .modal {
+  max-width: 850px;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 102;
+  padding: 30px;
+  border-radius: 3px;
+  display: none;
+  cursor: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: -95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: drop 0.3s linear forwards;
+}
+#portfolio .container .all-projects .project-content .modal.db, #portfolio .container .backend-projects .project-content .modal.db, #portfolio .container .frontend-projects .project-content .modal.db {
+  display: block;
+}
+#portfolio .container .all-projects .project-content .modal.dn, #portfolio .container .backend-projects .project-content .modal.dn, #portfolio .container .frontend-projects .project-content .modal.dn {
+  display: none;
+}
+#portfolio .container .all-projects .project-content .modal .title, #portfolio .container .backend-projects .project-content .modal .title, #portfolio .container .frontend-projects .project-content .modal .title {
+  font-size: 30px;
+}
+#portfolio .container .all-projects .project-content .modal .description, #portfolio .container .backend-projects .project-content .modal .description, #portfolio .container .frontend-projects .project-content .modal .description {
+  margin: 5px 0 15px;
+}
+#portfolio .container .all-projects .project-content .modal .info .info-box, #portfolio .container .backend-projects .project-content .modal .info .info-box, #portfolio .container .frontend-projects .project-content .modal .info .info-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#portfolio .container .all-projects .project-content .modal .info .info-box:first-child span, #portfolio .container .backend-projects .project-content .modal .info .info-box:first-child span, #portfolio .container .frontend-projects .project-content .modal .info .info-box:first-child span {
+  line-height: 1.3;
+}
+#portfolio .container .all-projects .project-content .modal .info .info-box:last-child, #portfolio .container .backend-projects .project-content .modal .info .info-box:last-child, #portfolio .container .frontend-projects .project-content .modal .info .info-box:last-child {
+  margin-top: 10px;
+}
+#portfolio .container .all-projects .project-content .modal .info .info-box:last-child span, #portfolio .container .backend-projects .project-content .modal .info .info-box:last-child span, #portfolio .container .frontend-projects .project-content .modal .info .info-box:last-child span {
+  text-transform: capitalize;
+}
+#portfolio .container .all-projects .project-content .modal .info .info-box h5, #portfolio .container .backend-projects .project-content .modal .info .info-box h5, #portfolio .container .frontend-projects .project-content .modal .info .info-box h5 {
+  width: 75px;
+}
+#portfolio .container .all-projects .project-content .modal .info .info-box span, #portfolio .container .backend-projects .project-content .modal .info .info-box span, #portfolio .container .frontend-projects .project-content .modal .info .info-box span {
+  width: 100%;
+}
+#portfolio .container .all-projects .project-content .modal .images, #portfolio .container .backend-projects .project-content .modal .images, #portfolio .container .frontend-projects .project-content .modal .images {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#portfolio .container .all-projects .project-content .modal .images a, #portfolio .container .backend-projects .project-content .modal .images a, #portfolio .container .frontend-projects .project-content .modal .images a {
+  width: 48.7%;
+}
+#portfolio .container .all-projects .project-content .modal .images a img, #portfolio .container .backend-projects .project-content .modal .images a img, #portfolio .container .frontend-projects .project-content .modal .images a img {
+  width: 100%;
+  height: 213px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+#portfolio .container .all-projects .project-content .modal .modal-btns, #portfolio .container .backend-projects .project-content .modal .modal-btns, #portfolio .container .frontend-projects .project-content .modal .modal-btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#portfolio .container .all-projects .project-content .modal .modal-btns .btn:first-child, #portfolio .container .backend-projects .project-content .modal .modal-btns .btn:first-child, #portfolio .container .frontend-projects .project-content .modal .modal-btns .btn:first-child {
+  color: #ffffff;
+  margin-right: 30px;
+}
+#portfolio .container .all-projects .project-content .modal .modal-btns .btn:first-child:hover, #portfolio .container .backend-projects .project-content .modal .modal-btns .btn:first-child:hover, #portfolio .container .frontend-projects .project-content .modal .modal-btns .btn:first-child:hover {
+  box-shadow: 10px 10px 20px rgba(51, 51, 255, 0.2);
+}
+#portfolio .container .all-projects .project-content .modal .modal-btns .btn:last-child, #portfolio .container .backend-projects .project-content .modal .modal-btns .btn:last-child, #portfolio .container .frontend-projects .project-content .modal .modal-btns .btn:last-child {
+  background-color: #efefef;
+}
+#portfolio .container .all-projects .project-content .modal .modal-btns .btn:last-child:hover, #portfolio .container .backend-projects .project-content .modal .modal-btns .btn:last-child:hover, #portfolio .container .frontend-projects .project-content .modal .modal-btns .btn:last-child:hover {
+  box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2);
+}
+
+#skills, #experience, #education, #languages, #portfolio {
+  border-top: 1px solid #e3e3e3;
+}
+#skills .info-block, #experience .info-block, #education .info-block, #languages .info-block, #portfolio .info-block {
+  align-items: flex-start;
+  position: relative;
+}
+
+.left-side {
+  max-width: 370px;
+  width: 100%;
+}
+.left-side p {
+  margin-top: 10px;
+}
+.left-side .svg-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.left-side .svg-box svg {
+  width: 105px;
+}
+.left-side .svg-box svg:first-child {
+  margin-bottom: 7px;
+}
+
+.right-side {
+  max-width: 760px;
+  width: 100%;
+}
+.right-side .horizontal-block {
+  display: flex;
+}
+.right-side .horizontal-block:first-child {
+  margin-bottom: 25px;
+}
+.right-side .horizontal-block:first-child .skills-box {
+  border-bottom: 1px solid #e3e3e3;
+}
+.right-side .horizontal-block:first-child .skills-box p {
+  padding-bottom: 25px;
+}
+.right-side .horizontal-block .skills-box {
+  width: 365px;
+}
+.right-side .horizontal-block .skills-box:first-child {
+  margin-right: 30px;
+}
+.right-side .horizontal-block .skills-box h3 {
+  margin-bottom: 7px;
+}
+.right-side .internship-block {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.right-side .internship-block:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.right-side .internship-block:last-child p, .right-side .internship-block:last-child .circles-box {
+  padding-bottom: 0;
+}
+.right-side .internship-block .flex-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.right-side .internship-block .flex-box h3 {
+  margin-right: 10px;
+}
+.right-side .internship-block p {
+  font-style: italic;
+  margin-top: 15px;
+  padding-bottom: 25px;
+}
+
+.circles-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3px;
+  padding-bottom: 25px;
+}
+.circles-box div {
+  width: 17px;
+  height: 17px;
+  background-color: #3333ff;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #efefef;
+  padding: 17px 0;
+}
+footer p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+  text-transform: capitalize;
+  text-align: center;
+}

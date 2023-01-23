@@ -1,0 +1,55 @@
+%container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+%center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+%black-small-text {
+  @include text-property(12px, $lato, $black, uppercase);
+  font-weight: $bold;
+}
+
+%grey-small-title {
+  @include text-property(14px, $roboto, $grey, none);
+}
+
+%grey-paragraph {
+  @include text-property(16px, $roboto, $grey, none);
+  line-height: 1.5;
+}
+
+%grey-title {
+  @include text-property(16px, $roboto, $grey, capitalize);
+}
+
+%black-middle-title {
+  @include text-property(18px, $lato, $black, capitalize);
+  font-weight: $bold;
+}
+
+%section-main-title {
+  @include text-property(30px, $lato, $black, capitalize);
+  font-weight: $bold;
+}
+
+%big-title {
+  @include text-property(36px, $lato, $black, none);
+  font-weight: $bold;
+}
+
+%blue-btn {
+  @include sizes(150px, 100%, 40px);
+  background-color: $blue;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  @extend %black-small-text;
+  @include flex-property(center, center);
+  @include transition(all, 0.3s, ease);
+}

@@ -1,0 +1,157 @@
+#portfolio {
+  .container {
+    .categories {
+      @include flex-property(flex-start, center);
+      margin: 30px 0 22px;
+      gap: 40px;
+      li {
+        @extend %black-small-text;
+        cursor: pointer;
+        @include transition(color, 0.3s, ease);
+        &:hover {
+          color: $blue;
+        }
+        &.active {
+          color: $blue;
+        }
+      }
+    }
+    .all-projects, .backend-projects, .frontend-projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 36.6px;
+      &.active {
+        display: block;
+        display: flex;
+      }
+      &.db {
+        display: block;
+      }
+      &.dn {
+        display: none;
+      }
+      .project-content {
+        .project-box {
+          max-width: 270px;
+          width: 100%;
+          cursor: pointer;
+          &:hover .project-img img {
+            transform: scale(1.2);
+          }
+          &:hover .project-name {
+            color: $blue;
+          }
+          .project-img {
+            @include sizes(100%, 100%, 270px);
+            overflow: hidden;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 2px;
+              @include transition(all, 0.3s, ease);
+            }
+            .hortensia, .vaccine, .portfolio, .travel, .delux, .react-form {
+              object-position: left;
+            }
+          }
+          .project-name {
+            @extend %black-middle-title;
+            text-transform: none;
+            margin: 12px 0;
+            @include transition(all, 0.3s, ease);
+          }
+          .project-date {
+            @extend %grey-title;
+          }
+        }
+        .modal {
+          max-width: 850px;
+          width: 100%;
+          background-color: $white;
+          z-index: 102;
+          padding: 30px;
+          border-radius: 3px;
+          display: none;
+          cursor: auto;
+          box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+          position: fixed;
+          top: -95%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          animation: drop 0.3s linear forwards;
+          &.db {
+            display: block;
+          }
+          &.dn {
+            display: none;
+          }
+          .title {
+            @extend %big-title;
+            font-size: 30px;
+          }
+          .description {
+            @extend %grey-paragraph;
+            margin: 5px 0 15px;
+          }
+          .info {
+            .info-box {
+              &:first-child {
+                span {
+                  line-height: 1.3;
+                }
+              }
+              &:last-child {
+                margin-top: 10px;
+                span {
+                  text-transform: capitalize;
+                }
+              }
+              @include flex-property(flex-start, center);
+              h5 {
+                @extend %black-small-text;
+                width: 75px;
+              }
+              span {
+                @extend %grey-small-title;
+                width: 100%;
+              }
+            }
+          }
+          .images {
+            margin: 20px 0;
+            @include flex-property(space-between, flex-start);
+            a {
+              width: 48.7%;
+              img {
+                width: 100%;
+                height: 213px;
+                border-radius: 3px;
+                object-fit: cover;
+              }
+            }
+          }
+          .modal-btns {
+            @include flex-property(flex-start, center);
+            .btn {
+              @extend %blue-btn;
+              &:first-child {
+                color: $white;
+                margin-right: 30px;
+                &:hover {
+                  box-shadow: 10px 10px 20px rgb(51 51 255 / 20%);
+                }
+              }
+              &:last-child {
+                background-color: $lightGrey;
+                &:hover {
+                  box-shadow: 10px 10px 20px rgb(37 37 37 / 20%);
+                }
+              }   
+            }
+          }
+        }
+      }
+    }
+  }
+}

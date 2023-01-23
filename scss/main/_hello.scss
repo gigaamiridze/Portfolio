@@ -1,0 +1,68 @@
+#hello {
+  padding-top: 124px;
+}
+
+section {
+  padding: 40px 0;
+  .container {
+    @extend %container;
+    .info-block {
+      @include flex-property(space-between, center);
+      .about-me-info {
+        max-width: 550px;
+        width: 100%;
+        h2 {
+          @extend %big-title;
+        }
+        p {
+          @extend %grey-paragraph;
+          margin: 10px 0 20px;
+        }
+        .info-group {
+          @include flex-property(flex-start, center);
+          margin-bottom: 15px;
+          &:nth-child(6) {
+            margin-bottom: 20px;
+          }
+          .key {
+            @extend %black-small-text;
+            width: 90px;
+          }
+          .phone, .email {
+            @include transition(color, 0.3s, ease);
+            &:hover {
+              color: $blue
+            }
+          }
+          .value {
+            @extend %grey-small-title;
+          }
+          .social-icons {
+            @include flex-property(space-between, center);
+            gap: 22px;
+            i {
+              font-size: 14px;
+              color: $black;
+              @include transition(color, 0.3s, ease);
+              &:hover {
+                color: $blue;
+              }
+            }
+          }
+        }
+        .cv-btn {
+          @extend %blue-btn;
+          color: $white;
+          &:hover {
+            box-shadow: 10px 10px 20px rgb(51 51 255 / 20%);
+          }
+        }
+      }
+      .my-img {
+        @include sizes(570px, 100%, 320px);
+        object-fit: cover;
+        border-radius: 3px;
+      }
+    }
+  }
+}

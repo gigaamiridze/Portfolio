@@ -1,0 +1,34 @@
+.right-side {
+  .internship-block {
+    margin-bottom: 25px;
+    border-bottom: 1px solid $lightGrey1;
+    // No divider line
+    &:last-child {
+      margin-bottom: 0;
+      border-bottom: none;
+      p, .circles-box {
+        padding-bottom: 0;
+      }
+    }
+    .flex-box {
+      @include flex-property(flex-start, center);
+      margin-bottom: 10px;
+      h3 {
+        @extend %black-middle-title;
+        margin-right: 10px;
+      }
+      span {
+        @extend %grey-title;
+      }
+    }
+    span {
+      @extend %grey-title;
+    }
+    p {
+      @extend %grey-paragraph;
+      font-style: italic;
+      margin-top: 15px;
+      padding-bottom: 25px;
+    }
+  }
+}

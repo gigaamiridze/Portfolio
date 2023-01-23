@@ -1,0 +1,59 @@
+#skills, #experience, #education, #languages, #portfolio {
+  border-top: 1px solid $lightGrey1;
+  .info-block {
+    align-items: flex-start;
+    position: relative;
+  }
+}
+
+.left-side {
+  max-width: 370px;
+  width: 100%;
+  p {
+    @extend %grey-paragraph;
+    margin-top: 10px;
+  }
+  .svg-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    svg {
+      width: 105px;
+      &:first-child {
+        margin-bottom: 7px;
+      }
+    }
+  }
+}
+
+.right-side {
+  max-width: 760px;
+  width: 100%;
+  .horizontal-block {
+    display: flex;
+    &:first-child {
+      margin-bottom: 25px;
+      .skills-box {
+        border-bottom: 1px solid $lightGrey1;
+        p {
+          padding-bottom: 25px;
+        }
+      }
+    }
+    .skills-box {
+      width: 365px;
+      &:first-child {
+        margin-right: 30px;
+      }
+      h3 {
+        @extend %black-middle-title;
+        margin-bottom: 7px;
+      }
+      p {
+        @extend %grey-paragraph;
+      }
+    }
+  }
+}
