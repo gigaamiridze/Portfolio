@@ -10,7 +10,7 @@ const allProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Migrate, Flask-WTF, WTForms, HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/paradise/signin.png",
       secondImg: "./img/projects/paradise/add-music.png",
-      url: "https://github.com/gigaamiridze/Paradise",
+      url: "https://github.com/justtfelix/Paradise",
     }
   },
   {
@@ -24,7 +24,7 @@ const allProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Admin, Flask-WTF, WTForms, HTML, SCSS/CSS, JavaScript.",
       firstImg: "./img/projects/hortensia/intro.png",
       secondImg: "./img/projects/hortensia/statistic.png",
-      url: "https://github.com/gigaamiridze/AI_HortensIA",
+      url: "https://github.com/justtfelix/AI_HortensIA",
     }
   },
   {
@@ -38,7 +38,7 @@ const allProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Flask-RESTful, Werkzeug, Flask-JWT-Extended.",
       firstImg: "./img/projects/vaccine-api/register.png",
       secondImg: "./img/projects/vaccine-api/post.png",
-      url: "https://github.com/gigaamiridze/Vaccination-API",
+      url: "https://github.com/justtfelix/Vaccination-API",
     }
   },
   {
@@ -52,7 +52,7 @@ const allProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Flask-RESTful, Werkzeug, Flask-JWT-Extended.",
       firstImg: "./img/projects/manager-api/register.png",
       secondImg: "./img/projects/manager-api/post.png",
-      url: "https://github.com/gigaamiridze/Manager-API",
+      url: "https://github.com/justtfelix/Manager-API",
     }
   },
   {
@@ -66,7 +66,7 @@ const allProjectItems = [
       tools: "React, TypeScript, HTML, SCSS, CSS, Moment.js.",
       firstImg: "./img/projects/devfinder/dark.png",
       secondImg: "./img/projects/devfinder/light.png",
-      url: "https://gigaamiridze.github.io/github-user-search-app/",
+      url: "https://github-devfinder-rc.vercel.app",
     }
   },
   {
@@ -76,11 +76,11 @@ const allProjectItems = [
     date: "december, 2022",
     modalID: "react-todo",
     moreInfo: {
-      description: "React todo list app",
+      description: "Todo list app",
       tools: "React, JavaScript, HTML, SCSS, CSS.",
       firstImg: "./img/projects/react-todo/tasks.png",
       secondImg: "./img/projects/react-todo/completed.png",
-      url: "https://gigaamiridze.github.io/react-todo-app/",
+      url: "https://todo-list-rc.vercel.app",
     }
   },
   {
@@ -90,11 +90,11 @@ const allProjectItems = [
     date: "december, 2022",
     modalID: "react-accordion",
     moreInfo: {
-      description: "React accordion card app",
+      description: "Accordion card app",
       tools: "React, JavaScript, HTML, SCSS, CSS.",
       firstImg: "./img/projects/accordion/card1.png",
       secondImg: "./img/projects/accordion/card2.png",
-      url: "https://gigaamiridze.github.io/react-accordion-card/",
+      url: "https://accordion-card-rc.vercel.app",
     }
   },
   {
@@ -108,7 +108,7 @@ const allProjectItems = [
       tools: "React, TypeScript, HTML, SCSS, CSS.",
       firstImg: "./img/projects/rating/active.png",
       secondImg: "./img/projects/rating/thank-you.png",
-      url: "https://gigaamiridze.github.io/interactive-rating-component/",
+      url: "https://interactive-rating-component-rc.vercel.app",
     }
   },
   {
@@ -122,7 +122,7 @@ const allProjectItems = [
       tools: "React, TypeScript, HTML, CSS.",
       firstImg: "./img/projects/nft-card/nft-hover.png",
       secondImg: "./img/projects/nft-card/nft-hover-1.png",
-      url: "https://gigaamiridze.github.io/nft-preview-card/",
+      url: "https://nft-preview-card-rc.vercel.app",
     }
   },
   {
@@ -132,11 +132,11 @@ const allProjectItems = [
     date: "december, 2022",
     modalID: "react-form",
     moreInfo: {
-      description: "React registration form with validation using the React Hook Form library",
+      description: "Registration form with validation using React and React Hook Form library",
       tools: "React, React Hook Form, JavaScript, HTML, CSS.",
       firstImg: "./img/projects/react-form/validation.png",
       secondImg: "./img/projects/react-form/with-data.png",
-      url: "https://gigaamiridze.github.io/react-registration-form/",
+      url: "https://registration-form-rc.vercel.app",
     }
   },
   {
@@ -164,7 +164,7 @@ const allProjectItems = [
       tools: "Python, Flask, HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/photolens/home.png",
       secondImg: "./img/projects/photolens/shop-route.png",
-      url: "https://github.com/gigaamiridze/Photolens",
+      url: "https://github.com/justtfelix/Photolens",
     }
   },
   {
@@ -178,7 +178,7 @@ const allProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/ecommerce/cart-1.png",
       secondImg: "./img/projects/ecommerce/cart-2.png",
-      url: "https://gigaamiridze.github.io/Shopping-Cart/",
+      url: "https://product-shopping-cart.vercel.app",
     }
   },
   {
@@ -192,7 +192,7 @@ const allProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Flask-RESTful, Werkzeug, Flask-JWT-Extended.",
       firstImg: "./img/projects/genius-api/artist.png",
       secondImg: "./img/projects/genius-api/song.png",
-      url: "https://github.com/gigaamiridze/Genius-API",
+      url: "https://github.com/justtfelix/Genius-API",
     }
   },
   {
@@ -206,7 +206,7 @@ const allProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript.",
       firstImg: "./img/projects/tic-tac-toe/empty.png",
       secondImg: "./img/projects/tic-tac-toe/filled.png",
-      url: "https://gigaamiridze.github.io/tic-tac-toe/",
+      url: "https://tic-tac-toe-ox.vercel.app",
     }
   },
   {
@@ -220,7 +220,7 @@ const allProjectItems = [
       tools: "HTML, CSS, JavaScript.",
       firstImg: "./img/projects/portfolio/home.png",
       secondImg: "./img/projects/portfolio/contact.png",
-      url: "https://gigaamiridze.github.io/Portfolio/",
+      url: "https://photography-portfolioo.vercel.app",
     }
   },
   {
@@ -234,7 +234,7 @@ const allProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/travel/section-1.png",
       secondImg: "./img/projects/travel/section-2.png",
-      url: "https://gigaamiridze.github.io/Unilab-Project/",
+      url: "https://unilab-project.vercel.app",
     }
   },
   {
@@ -248,7 +248,7 @@ const allProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/delux/agenda.png",
       secondImg: "./img/projects/delux/contact.png",
-      url: "https://gigaamiridze.github.io/Delux/",
+      url: "https://delux-one.vercel.app",
     }
   },
   {
@@ -262,7 +262,7 @@ const allProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/tokyo/home.png",
       secondImg: "./img/projects/tokyo/about.png",
-      url: "https://gigaamiridze.github.io/Tokyo/",
+      url: "https://tokyo-tau.vercel.app",
     }
   },
 ]

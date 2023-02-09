@@ -10,7 +10,7 @@ const frontProjectItems = [
       tools: "React, TypeScript, HTML, SCSS, CSS, Moment.js.",
       firstImg: "./img/projects/devfinder/dark.png",
       secondImg: "./img/projects/devfinder/light.png",
-      url: "https://gigaamiridze.github.io/github-user-search-app/",
+      url: "https://github-devfinder-rc.vercel.app",
     }
   },
   {
@@ -20,11 +20,11 @@ const frontProjectItems = [
     date: "december, 2022",
     modalID: "react-todo-front",
     moreInfo: {
-      description: "React todo list app",
+      description: "Todo list app",
       tools: "React, JavaScript, HTML, SCSS, CSS.",
       firstImg: "./img/projects/react-todo/tasks.png",
       secondImg: "./img/projects/react-todo/completed.png",
-      url: "https://gigaamiridze.github.io/react-todo-app/",
+      url: "https://todo-list-rc.vercel.app",
     }
   },
   {
@@ -34,11 +34,11 @@ const frontProjectItems = [
     date: "december, 2022",
     modalID: "react-accordion-front",
     moreInfo: {
-      description: "React accordion card app",
+      description: "Accordion card app",
       tools: "React, JavaScript, HTML, SCSS, CSS.",
       firstImg: "./img/projects/accordion/card1.png",
       secondImg: "./img/projects/accordion/card2.png",
-      url: "https://gigaamiridze.github.io/react-accordion-card/",
+      url: "https://accordion-card-rc.vercel.app",
     }
   },
   {
@@ -52,7 +52,7 @@ const frontProjectItems = [
       tools: "React, TypeScript, HTML, SCSS, CSS.",
       firstImg: "./img/projects/rating/active.png",
       secondImg: "./img/projects/rating/thank-you.png",
-      url: "https://gigaamiridze.github.io/interactive-rating-component/",
+      url: "https://interactive-rating-component-rc.vercel.app",
     }
   },
   {
@@ -66,7 +66,7 @@ const frontProjectItems = [
       tools: "React, TypeScript, HTML, CSS.",
       firstImg: "./img/projects/nft-card/nft-hover.png",
       secondImg: "./img/projects/nft-card/nft-hover-1.png",
-      url: "https://gigaamiridze.github.io/nft-preview-card/",
+      url: "https://nft-preview-card-rc.vercel.app",
     }
   },
   {
@@ -76,11 +76,11 @@ const frontProjectItems = [
     date: "december, 2022",
     modalID: "react-form-front",
     moreInfo: {
-      description: "React registration form with validation using the React Hook Form library",
+      description: "Registration form with validation using React and React Hook Form library",
       tools: "React, React Hook Form, JavaScript, HTML, CSS.",
       firstImg: "./img/projects/react-form/validation.png",
       secondImg: "./img/projects/react-form/with-data.png",
-      url: "https://gigaamiridze.github.io/react-registration-form/",
+      url: "https://registration-form-rc.vercel.app",
     }
   },
   {
@@ -108,7 +108,7 @@ const frontProjectItems = [
       tools: "Python, Flask, HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/photolens/home.png",
       secondImg: "./img/projects/photolens/shop-route.png",
-      url: "https://github.com/gigaamiridze/Photolens",
+      url: "https://github.com/justtfelix/Photolens",
     }
   },
   {
@@ -122,7 +122,7 @@ const frontProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/ecommerce/cart-1.png",
       secondImg: "./img/projects/ecommerce/cart-2.png",
-      url: "https://gigaamiridze.github.io/Shopping-Cart/",
+      url: "https://product-shopping-cart.vercel.app",
     }
   },
   {
@@ -136,7 +136,7 @@ const frontProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript.",
       firstImg: "./img/projects/tic-tac-toe/empty.png",
       secondImg: "./img/projects/tic-tac-toe/filled.png",
-      url: "https://gigaamiridze.github.io/tic-tac-toe/",
+      url: "https://tic-tac-toe-ox.vercel.app",
     }
   },
   {
@@ -150,7 +150,7 @@ const frontProjectItems = [
       tools: "HTML, CSS, JavaScript.",
       firstImg: "./img/projects/portfolio/home.png",
       secondImg: "./img/projects/portfolio/contact.png",
-      url: "https://gigaamiridze.github.io/Portfolio/",
+      url: "https://photography-portfolioo.vercel.app",
     }
   },
   {
@@ -164,7 +164,7 @@ const frontProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/travel/section-1.png",
       secondImg: "./img/projects/travel/section-2.png",
-      url: "https://gigaamiridze.github.io/Unilab-Project/",
+      url: "https://unilab-project.vercel.app",
     }
   },
   {
@@ -178,7 +178,7 @@ const frontProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/delux/agenda.png",
       secondImg: "./img/projects/delux/contact.png",
-      url: "https://gigaamiridze.github.io/Delux/",
+      url: "https://delux-one.vercel.app",
     }
   },
   {
@@ -192,7 +192,7 @@ const frontProjectItems = [
       tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/tokyo/home.png",
       secondImg: "./img/projects/tokyo/about.png",
-      url: "https://gigaamiridze.github.io/Tokyo/",
+      url: "https://tokyo-tau.vercel.app",
     }
   },
 ]

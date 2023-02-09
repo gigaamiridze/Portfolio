@@ -10,7 +10,7 @@ const backProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Migrate, Flask-WTF, WTForms, HTML, SCSS/CSS, JavaScript, Gulp.",
       firstImg: "./img/projects/paradise/signin.png",
       secondImg: "./img/projects/paradise/add-music.png",
-      url: "https://github.com/gigaamiridze/Paradise",
+      url: "https://github.com/justtfelix/Paradise",
     }
   },
   {
@@ -24,7 +24,7 @@ const backProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Admin, Flask-WTF, WTForms, HTML, SCSS/CSS, JavaScript.",
       firstImg: "./img/projects/hortensia/intro.png",
       secondImg: "./img/projects/hortensia/statistic.png",
-      url: "https://github.com/gigaamiridze/AI_HortensIA",
+      url: "https://github.com/justtfelix/AI_HortensIA",
     }
   },
   {
@@ -38,7 +38,7 @@ const backProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Flask-RESTful, Werkzeug, Flask-JWT-Extended.",
       firstImg: "./img/projects/vaccine-api/register.png",
       secondImg: "./img/projects/vaccine-api/post.png",
-      url: "https://github.com/gigaamiridze/Vaccination-API",
+      url: "https://github.com/justtfelix/Vaccination-API",
     }
   },
   {
@@ -52,7 +52,7 @@ const backProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Flask-RESTful, Werkzeug, Flask-JWT-Extended.",
       firstImg: "./img/projects/genius-api/artist.png",
       secondImg: "./img/projects/genius-api/song.png",
-      url: "https://github.com/gigaamiridze/Genius-API",
+      url: "https://github.com/justtfelix/Genius-API",
     }
   },
   {
@@ -66,7 +66,7 @@ const backProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Flask-RESTful, Werkzeug, Flask-JWT-Extended.",
       firstImg: "./img/projects/manager-api/register.png",
       secondImg: "./img/projects/manager-api/post.png",
-      url: "https://github.com/gigaamiridze/Manager-API",
+      url: "https://github.com/justtfelix/Manager-API",
     }
   },
 ]
