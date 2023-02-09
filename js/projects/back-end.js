@@ -7,7 +7,7 @@ const backProjectItems = [
     modalID: "paradise-back",
     moreInfo: {
       description: "Paradise is a music streaming website where users can register, login and add music if they want or listen to music added by others. Users can also view their statistics on the page. For example, how much music he listened to or uploaded. The website is under development.",
-      tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Migrate, Flask-WTF, WTForms, HTML, SCSS/CSS, JavaScript, Gulp.",
+      tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Migrate, Flask-WTF, WTForms, HTML, SCSS/CSS, Gulp.js, JavaScript.",
       firstImg: "./img/projects/paradise/signin.png",
       secondImg: "./img/projects/paradise/add-music.png",
       url: "https://github.com/justtfelix/Paradise",

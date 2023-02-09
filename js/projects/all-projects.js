@@ -7,10 +7,206 @@ const allProjectItems = [
     modalID: "paradise",
     moreInfo: {
       description: "Paradise is a music streaming website where users can register, login and add music if they want or listen to music added by others. Users can also view their statistics on the page. For example, how much music he listened to or uploaded. The website is under development.",
-      tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Migrate, Flask-WTF, WTForms, HTML, SCSS/CSS, JavaScript, Gulp.",
+      tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Migrate, Flask-WTF, WTForms, HTML, SCSS/CSS, Gulp.js, JavaScript.",
       firstImg: "./img/projects/paradise/signin.png",
       secondImg: "./img/projects/paradise/add-music.png",
       url: "https://github.com/justtfelix/Paradise",
+    }
+  },
+  {
+    img: "./img/projects/sandro's-book/book.svg",
+    className: "book",
+    name: "Sandro's Book",
+    date: "july, 2022",
+    modalID: "book",
+    moreInfo: {
+      description: "This book is an online edition of the book. The stories told in this book are about technology and the magical abilities of modern man. There is no printed version of this book, the stories told in the book can be read and heard only thanks to technology.",
+      tools: "HTML, SCSS/CSS, JavaScript.",
+      firstImg: "./img/projects/sandro's-book/menu.png",
+      secondImg: "./img/projects/sandro's-book/audio.png",
+      url: "https://nokak.github.io/Web-edition-of-Sandro-s-book/",
+    }
+  },
+  {
+    img: "./img/projects/devfinder/devfinder.png",
+    className: "devfinder",
+    name: "Devfinder",
+    date: "january, 2023",
+    modalID: "devfinder",
+    moreInfo: {
+      description: "Devfinder project with light and dark theme mode. This app uses the GitHub API to find a user.",
+      tools: "React, TypeScript, Moment.js, Gulp.js, HTML, SCSS, CSS, API.",
+      firstImg: "./img/projects/devfinder/dark.png",
+      secondImg: "./img/projects/devfinder/light.png",
+      url: "https://github-devfinder-rc.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/react-todo/todo.png",
+    className: "react-todo",
+    name: "ToDo List",
+    date: "december, 2022",
+    modalID: "react-todo",
+    moreInfo: {
+      description: "Todo list app",
+      tools: "React, JavaScript, Gulp.js, HTML, SCSS, CSS.",
+      firstImg: "./img/projects/react-todo/tasks.png",
+      secondImg: "./img/projects/react-todo/completed.png",
+      url: "https://todo-list-rc.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/shopping-cart/store.png",
+    className: "shopping-cart",
+    name: "Shopping Cart",
+    date: "November, 2022",
+    modalID: "shopping-cart",
+    moreInfo: {
+      description: "This is shopping cart website where various products are placed. The user can add the product to the cart, if desired, increase its quantity and dynamically understand the current price of the product.",
+      tools: "React, React Router, TypeScript, HTML, CSS, Bootstrap.",
+      firstImg: "./img/projects/shopping-cart/without-cart.png",
+      secondImg: "./img/projects/shopping-cart/with-cart.png",
+      url: "https://shopping-cart-rc.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/tic-tac-toe/tic-tac-toe.png",
+    className: "tic-tac-toe",
+    name: "Tic Tac Toe",
+    date: "august, 2022",
+    modalID: "tic-tac-toe",
+    moreInfo: {
+      description: "This is a tic tac toe game that anyone can see and play. Built into it is the game logic to find out which player has won the game.",
+      tools: "JavaScript, HTML, CSS.",
+      firstImg: "./img/projects/tic-tac-toe/empty.png",
+      secondImg: "./img/projects/tic-tac-toe/filled.png",
+      url: "https://tic-tac-toe-ox.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/ecommerce/ecommerce.png",
+    className: "ecommerce",
+    name: "Shopping Cart",
+    date: "april, 2022",
+    modalID: "ecommerce",
+    moreInfo: {
+      description: "This is a landing page website where various products are placed. The user can add the product to the cart, if desired, increase its quantity and dynamically understand the current price of the product.",
+      tools: "JavaScript, Gulp.js, HTML, SCSS/CSS.",
+      firstImg: "./img/projects/ecommerce/cart-1.png",
+      secondImg: "./img/projects/ecommerce/cart-2.png",
+      url: "https://product-shopping-cart.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/accordion/card.png",
+    className: "accordion",
+    name: "Accordion Card",
+    date: "december, 2022",
+    modalID: "react-accordion",
+    moreInfo: {
+      description: "Accordion card app",
+      tools: "React, JavaScript, Gulp.js, HTML, SCSS, CSS.",
+      firstImg: "./img/projects/accordion/card1.png",
+      secondImg: "./img/projects/accordion/card2.png",
+      url: "https://accordion-card-rc.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/react-form/registration.png",
+    className: "react-form",
+    name: "Registration Form",
+    date: "december, 2022",
+    modalID: "react-form",
+    moreInfo: {
+      description: "Registration form with validation using React and React Hook Form library",
+      tools: "React, React Hook Form, JavaScript, HTML, CSS.",
+      firstImg: "./img/projects/react-form/validation.png",
+      secondImg: "./img/projects/react-form/with-data.png",
+      url: "https://registration-form-rc.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/card-details/empty.png",
+    className: "card-details",
+    name: "Interactive Card",
+    date: "january, 2023",
+    modalID: "card-details",
+    moreInfo: {
+      description: "Interactive card details form where the customer enters information and this information is dynamically displayed on the card.",
+      tools: "React, TypeScript, Gulp.js, HTML, SCSS, CSS.",
+      firstImg: "./img/projects/card-details/filled.png",
+      secondImg: "./img/projects/card-details/thankYou.png",
+      url: "https://card-details-rc.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/rating/card.png",
+    className: "rating-card",
+    name: "Interactive Rating Card",
+    date: "january, 2023",
+    modalID: "rating-card",
+    moreInfo: {
+      description: "Interactive rating component with React and TypeScript",
+      tools: "React, TypeScript, Gulp.js, HTML, SCSS, CSS.",
+      firstImg: "./img/projects/rating/active.png",
+      secondImg: "./img/projects/rating/thank-you.png",
+      url: "https://interactive-rating-component-rc.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/advice-generator/advice.png",
+    className: "advice-generator",
+    name: "Advice Generator",
+    date: "february, 2023",
+    modalID: "advice-generator",
+    moreInfo: {
+      description: "The app uses the Advice Slip API to generate random quotes of advice.",
+      tools: "React, TypeScript, Styled-Components, HTML, Framer Motion, API.",
+      firstImg: "./img/projects/advice-generator/loading.png",
+      secondImg: "./img/projects/advice-generator/error.png",
+      url: "https://slip-advice-generator.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/nft-card/nft-card.png",
+    className: "nft-card",
+    name: "NFT Card",
+    date: "december, 2022",
+    modalID: "nft-card",
+    moreInfo: {
+      description: "NFT preview card with React and TypeScript",
+      tools: "React, TypeScript, HTML, CSS.",
+      firstImg: "./img/projects/nft-card/nft-hover.png",
+      secondImg: "./img/projects/nft-card/nft-hover-1.png",
+      url: "https://nft-preview-card-rc.vercel.app",
+    }
+  },
+  {
+    img: "./img/projects/photolens/photolens.png",
+    className: "photolens",
+    name: "Photolens",
+    date: "may, 2022",
+    modalID: "photolens",
+    moreInfo: {
+      description: "Photolens is a photographer and video maker portfolio website with information about him, contact information and his many photos by category. The user can also add the photo he likes to the cart and buy it.",
+      tools: "Python, Flask, JavaScript, Gulp.js, HTML, SCSS/CSS.",
+      firstImg: "./img/projects/photolens/home.png",
+      secondImg: "./img/projects/photolens/shop-route.png",
+      url: "https://github.com/justtfelix/Photolens",
+    }
+  },
+  {
+    img: "./img/projects/travel/travel.png",
+    className: "travel",
+    name: "Travel",
+    date: "june, 2022",
+    modalID: "travel",
+    moreInfo: {
+      description: "A travel website featuring photos and information about various places. This website is a test assignment for an internship. Also located on the page is the products page, from which I fetched information from the api located in the online space.",
+      tools: "JavaScript, Gulp.js, HTML, SCSS/CSS.",
+      firstImg: "./img/projects/travel/section-1.png",
+      secondImg: "./img/projects/travel/section-2.png",
+      url: "https://unilab-project.vercel.app",
     }
   },
   {
@@ -56,132 +252,6 @@ const allProjectItems = [
     }
   },
   {
-    img: "./img/projects/devfinder/devfinder.png",
-    className: "devfinder",
-    name: "Devfinder",
-    date: "january, 2023",
-    modalID: "devfinder",
-    moreInfo: {
-      description: "GitHub user search app",
-      tools: "React, TypeScript, HTML, SCSS, CSS, Moment.js.",
-      firstImg: "./img/projects/devfinder/dark.png",
-      secondImg: "./img/projects/devfinder/light.png",
-      url: "https://github-devfinder-rc.vercel.app",
-    }
-  },
-  {
-    img: "./img/projects/react-todo/todo.png",
-    className: "react-todo",
-    name: "ToDo List",
-    date: "december, 2022",
-    modalID: "react-todo",
-    moreInfo: {
-      description: "Todo list app",
-      tools: "React, JavaScript, HTML, SCSS, CSS.",
-      firstImg: "./img/projects/react-todo/tasks.png",
-      secondImg: "./img/projects/react-todo/completed.png",
-      url: "https://todo-list-rc.vercel.app",
-    }
-  },
-  {
-    img: "./img/projects/accordion/card.png",
-    className: "accordion",
-    name: "Accordion Card",
-    date: "december, 2022",
-    modalID: "react-accordion",
-    moreInfo: {
-      description: "Accordion card app",
-      tools: "React, JavaScript, HTML, SCSS, CSS.",
-      firstImg: "./img/projects/accordion/card1.png",
-      secondImg: "./img/projects/accordion/card2.png",
-      url: "https://accordion-card-rc.vercel.app",
-    }
-  },
-  {
-    img: "./img/projects/rating/card.png",
-    className: "rating-card",
-    name: "Interactive Rating Card",
-    date: "january, 2023",
-    modalID: "rating-card",
-    moreInfo: {
-      description: "Interactive rating component with React and TypeScript",
-      tools: "React, TypeScript, HTML, SCSS, CSS.",
-      firstImg: "./img/projects/rating/active.png",
-      secondImg: "./img/projects/rating/thank-you.png",
-      url: "https://interactive-rating-component-rc.vercel.app",
-    }
-  },
-  {
-    img: "./img/projects/nft-card/nft-card.png",
-    className: "nft-card",
-    name: "NFT Card",
-    date: "december, 2022",
-    modalID: "nft-card",
-    moreInfo: {
-      description: "NFT preview card with React and TypeScript",
-      tools: "React, TypeScript, HTML, CSS.",
-      firstImg: "./img/projects/nft-card/nft-hover.png",
-      secondImg: "./img/projects/nft-card/nft-hover-1.png",
-      url: "https://nft-preview-card-rc.vercel.app",
-    }
-  },
-  {
-    img: "./img/projects/react-form/registration.png",
-    className: "react-form",
-    name: "Registration Form",
-    date: "december, 2022",
-    modalID: "react-form",
-    moreInfo: {
-      description: "Registration form with validation using React and React Hook Form library",
-      tools: "React, React Hook Form, JavaScript, HTML, CSS.",
-      firstImg: "./img/projects/react-form/validation.png",
-      secondImg: "./img/projects/react-form/with-data.png",
-      url: "https://registration-form-rc.vercel.app",
-    }
-  },
-  {
-    img: "./img/projects/sandro's-book/book.svg",
-    className: "book",
-    name: "Sandro's Book",
-    date: "july, 2022",
-    modalID: "book",
-    moreInfo: {
-      description: "This book is an online edition of the book. The stories told in this book are about technology and the magical abilities of modern man. There is no printed version of this book, the stories told in the book can be read and heard only thanks to technology.",
-      tools: "HTML, SCSS/CSS, JavaScript.",
-      firstImg: "./img/projects/sandro's-book/menu.png",
-      secondImg: "./img/projects/sandro's-book/audio.png",
-      url: "https://nokak.github.io/Web-edition-of-Sandro-s-book/",
-    }
-  },
-  {
-    img: "./img/projects/photolens/photolens.png",
-    className: "photolens",
-    name: "Photolens",
-    date: "may, 2022",
-    modalID: "photolens",
-    moreInfo: {
-      description: "Photolens is a photographer and video maker portfolio website with information about him, contact information and his many photos by category. The user can also add the photo he likes to the cart and buy it.",
-      tools: "Python, Flask, HTML, SCSS/CSS, JavaScript, Gulp.",
-      firstImg: "./img/projects/photolens/home.png",
-      secondImg: "./img/projects/photolens/shop-route.png",
-      url: "https://github.com/justtfelix/Photolens",
-    }
-  },
-  {
-    img: "./img/projects/ecommerce/ecommerce.png",
-    className: "ecommerce",
-    name: "Shopping Cart",
-    date: "april, 2022",
-    modalID: "ecommerce",
-    moreInfo: {
-      description: "This is a landing page website where various products are placed. The user can add the product to the cart, if desired, increase its quantity and dynamically understand the current price of the product.",
-      tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
-      firstImg: "./img/projects/ecommerce/cart-1.png",
-      secondImg: "./img/projects/ecommerce/cart-2.png",
-      url: "https://product-shopping-cart.vercel.app",
-    }
-  },
-  {
     img: "./img/projects/genius-api/genius.png",
     className: "genius",
     name: "Genius API",
@@ -193,20 +263,6 @@ const allProjectItems = [
       firstImg: "./img/projects/genius-api/artist.png",
       secondImg: "./img/projects/genius-api/song.png",
       url: "https://github.com/justtfelix/Genius-API",
-    }
-  },
-  {
-    img: "./img/projects/tic-tac-toe/tic-tac-toe.png",
-    className: "tic-tac-toe",
-    name: "Tic Tac Toe",
-    date: "august, 2022",
-    modalID: "tic-tac-toe",
-    moreInfo: {
-      description: "This is a tic tac toe game that anyone can see and play. Built into it is the game logic to find out which player has won the game.",
-      tools: "HTML, SCSS/CSS, JavaScript.",
-      firstImg: "./img/projects/tic-tac-toe/empty.png",
-      secondImg: "./img/projects/tic-tac-toe/filled.png",
-      url: "https://tic-tac-toe-ox.vercel.app",
     }
   },
   {
@@ -224,20 +280,6 @@ const allProjectItems = [
     }
   },
   {
-    img: "./img/projects/travel/travel.png",
-    className: "travel",
-    name: "Travel",
-    date: "june, 2022",
-    modalID: "travel",
-    moreInfo: {
-      description: "A travel website featuring photos and information about various places. This website is a test assignment for an internship. Also located on the page is the products page, from which I fetched information from the api located in the online space.",
-      tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
-      firstImg: "./img/projects/travel/section-1.png",
-      secondImg: "./img/projects/travel/section-2.png",
-      url: "https://unilab-project.vercel.app",
-    }
-  },
-  {
     img: "./img/projects/delux/delux.png",
     className: "delux",
     name: "Delux",
@@ -245,7 +287,7 @@ const allProjectItems = [
     modalID: "delux",
     moreInfo: {
       description: "This is a landing page website that provides information about a delux company. The website contains information about the company, employees, agenda and contact information.",
-      tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
+      tools: "JavaScript, Gulp.js, HTML, SCSS/CSS.",
       firstImg: "./img/projects/delux/agenda.png",
       secondImg: "./img/projects/delux/contact.png",
       url: "https://delux-one.vercel.app",
@@ -259,7 +301,7 @@ const allProjectItems = [
     modalID: "tokyo",
     moreInfo: {
       description: "This is an article-type website that contains information about various people and their photos.",
-      tools: "HTML, SCSS/CSS, JavaScript, Gulp.",
+      tools: "JavaScript, Gulp.js, HTML, SCSS/CSS.",
       firstImg: "./img/projects/tokyo/home.png",
       secondImg: "./img/projects/tokyo/about.png",
       url: "https://tokyo-tau.vercel.app",
