@@ -188,7 +188,7 @@ const allProjectItems = [
     date: "may, 2022",
     modalID: "photolens",
     moreInfo: {
-      description: "Photolens is a photographer and video maker portfolio website with information about him, contact information and his many photos by category. The user can also add the photo he likes to the cart and buy it.",
+      description: "Photolens is a photographer and video maker portfolio website with information about him, contact information, and his many photos by category. The user can also add the photo he likes to the cart and buy it.",
       tools: "Python, Flask, JavaScript, Gulp.js, HTML, SCSS/CSS.",
       firstImg: "./img/projects/photolens/home.png",
       secondImg: "./img/projects/photolens/shop-route.png",
@@ -202,7 +202,7 @@ const allProjectItems = [
     date: "june, 2022",
     modalID: "travel",
     moreInfo: {
-      description: "A travel website featuring photos and information about various places. This website is a test assignment for an internship. Also located on the page is the products page, from which I fetched information from the api located in the online space.",
+      description: "A travel website featuring photos and information about various places. This website is a test assignment for an internship. Also located on the page is the products page, from which I fetched information from the API located in the online space.",
       tools: "JavaScript, Gulp.js, HTML, SCSS/CSS.",
       firstImg: "./img/projects/travel/section-1.png",
       secondImg: "./img/projects/travel/section-2.png",
@@ -216,11 +216,11 @@ const allProjectItems = [
     date: "september, 2022",
     modalID: "hortensia",
     moreInfo: {
-      description: "Hortensia is a text classification website that offers its users flashcards featuring random sentences pulled from a common text repository. Under the card, there is a graphic selector of the emotional wheel, according to which the customer chooses what emotion the data displayed on the card causes in him. The card marked by the user is stored in the database.",
+      description: "Hortensia is a text classification website that offers its users flashcards featuring random sentences pulled from a common text repository. Under the card, there is a graphic selector of the emotional wheel, according to which the customer chooses what emotion the data displayed on the card cause in him. The card marked by the user is stored in the database.",
       tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Admin, Flask-WTF, WTForms, HTML, SCSS/CSS, JavaScript.",
       firstImg: "./img/projects/hortensia/intro.png",
       secondImg: "./img/projects/hortensia/statistic.png",
-      url: "https://github.com/justtfelix/AI_HortensIA",
+      url: "https://github.com/justtfelix/AI_HortensIA/tree/back",
     }
   },
   {
@@ -230,7 +230,7 @@ const allProjectItems = [
     date: "May, 2022",
     modalID: "vaccine",
     moreInfo: {
-      description: "Using this api one can register, login, add data, read, update and delete. If a person has been vaccinated, he will enter data on what kind of vaccine he received and how many doses. The data of vaccinated people are stored in the database.",
+      description: "Using this API one can register, log in, add data, read, update, and delete. If a person has been vaccinated, he will enter data on what kind of vaccine he received and how many doses. The data of vaccinated people are stored in the database.",
       tools: "Python, Flask, SQLAlchemy, Flask-RESTful, Werkzeug, Flask-JWT-Extended.",
       firstImg: "./img/projects/vaccine-api/register.png",
       secondImg: "./img/projects/vaccine-api/post.png",
@@ -244,7 +244,7 @@ const allProjectItems = [
     date: "May, 2022",
     modalID: "manager",
     moreInfo: {
-      description: "Using this app one can register, login, add data, read, update and delete. A person will enter data about the product, the data of which will be stored in the database.",
+      description: "Using this API one can register, log in, add data, read, update, and delete. A person will enter data about the product, the data of which will be stored in the database.",
       tools: "Python, Flask, SQLAlchemy, Flask-RESTful, Werkzeug, Flask-JWT-Extended.",
       firstImg: "./img/projects/manager-api/register.png",
       secondImg: "./img/projects/manager-api/post.png",
@@ -258,7 +258,7 @@ const allProjectItems = [
     date: "May, 2022",
     modalID: "genius",
     moreInfo: {
-      description: "Using the Genius api, an artist can add, read, update, and delete data. The artist will enter data with music-specific data that will be stored in the database.",
+      description: "Using the Genius API, an artist can add, read, update, and delete data. The artist will enter data with music-specific data that will be stored in the database.",
       tools: "Python, Flask, SQLAlchemy, Flask-RESTful, Werkzeug, Flask-JWT-Extended.",
       firstImg: "./img/projects/genius-api/artist.png",
       secondImg: "./img/projects/genius-api/song.png",
@@ -286,7 +286,7 @@ const allProjectItems = [
     date: "july, 2022",
     modalID: "delux",
     moreInfo: {
-      description: "This is a landing page website that provides information about a delux company. The website contains information about the company, employees, agenda and contact information.",
+      description: "This is a landing page website that provides information about a delux company. The website contains information about the company, employees, agenda, and contact information.",
       tools: "JavaScript, Gulp.js, HTML, SCSS/CSS.",
       firstImg: "./img/projects/delux/agenda.png",
       secondImg: "./img/projects/delux/contact.png",

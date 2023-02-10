@@ -174,7 +174,7 @@ const frontProjectItems = [
     date: "may, 2022",
     modalID: "photolens-front",
     moreInfo: {
-      description: "Photolens is a photographer and video maker portfolio website with information about him, contact information and his many photos by category. The user can also add the photo he likes to the cart and buy it.",
+      description: "Photolens is a photographer and video maker portfolio website with information about him, contact information, and his many photos by category. The user can also add the photo he likes to the cart and buy it.",
       tools: "Python, Flask, JavaScript, Gulp.js, HTML, SCSS/CSS.",
       firstImg: "./img/projects/photolens/home.png",
       secondImg: "./img/projects/photolens/shop-route.png",
@@ -188,7 +188,7 @@ const frontProjectItems = [
     date: "june, 2022",
     modalID: "travel-front",
     moreInfo: {
-      description: "A travel website featuring photos and information about various places. This website is a test assignment for an internship. Also located on the page is the products page, from which I fetched information from the api located in the online space.",
+      description: "A travel website featuring photos and information about various places. This website is a test assignment for an internship. Also located on the page is the products page, from which I fetched information from the API located in the online space.",
       tools: "JavaScript, Gulp.js, HTML, SCSS/CSS.",
       firstImg: "./img/projects/travel/section-1.png",
       secondImg: "./img/projects/travel/section-2.png",
@@ -216,7 +216,7 @@ const frontProjectItems = [
     date: "july, 2022",
     modalID: "delux-front",
     moreInfo: {
-      description: "This is a landing page website that provides information about a delux company. The website contains information about the company, employees, agenda and contact information.",
+      description: "This is a landing page website that provides information about a delux company. The website contains information about the company, employees, agenda, and contact information.",
       tools: "JavaScript, Gulp.js, HTML, SCSS/CSS.",
       firstImg: "./img/projects/delux/agenda.png",
       secondImg: "./img/projects/delux/contact.png",
