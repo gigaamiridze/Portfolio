@@ -10,7 +10,7 @@ const backProjectItems = [
       tools: "Python, Flask, SQLAlchemy, Jinja2, Werkzeug, Flask-Login, Flask-Migrate, Flask-WTF, WTForms, HTML, SCSS/CSS, Gulp.js, JavaScript.",
       firstImg: "./img/projects/paradise/signin.png",
       secondImg: "./img/projects/paradise/add-music.png",
-      url: "https://github.com/justtfelix/Paradise",
+      url: "https://music-paradise.herokuapp.com",
     }
   },
   {
