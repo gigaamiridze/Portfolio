@@ -34,7 +34,7 @@ const allProjectItems = [
     date: "january, 2023",
     modalID: "devfinder",
     moreInfo: {
-      description: "Devfinder project with light and dark theme mode. This app uses the GitHub API to find a user.",
+      description: "The project with dark and light theme modes, where you can find registered users on GitHub. This app uses the GitHub API.",
       tools: "React, TypeScript, Moment.js, Gulp.js, HTML, SCSS, CSS, API.",
       firstImg: "./img/projects/devfinder/dark.png",
       secondImg: "./img/projects/devfinder/light.png",
@@ -48,7 +48,7 @@ const allProjectItems = [
     date: "december, 2022",
     modalID: "react-todo",
     moreInfo: {
-      description: "Todo list app",
+      description: "ToDo List App is a kind of app that is generally used to maintain our day-to-day tasks or list everything that we have to do. It helps plan our daily schedules.",
       tools: "React, JavaScript, Gulp.js, HTML, SCSS, CSS.",
       firstImg: "./img/projects/react-todo/tasks.png",
       secondImg: "./img/projects/react-todo/completed.png",
@@ -62,7 +62,7 @@ const allProjectItems = [
     date: "November, 2022",
     modalID: "shopping-cart",
     moreInfo: {
-      description: "This is shopping cart website where various products are placed. The user can add the product to the cart, if desired, increase its quantity and dynamically understand the current price of the product.",
+      description: "This is a shopping cart website where various products are placed. The user can add the product to the cart, if desired, increase its quantity, and dynamically understand the current price of the product.",
       tools: "React, React Router, TypeScript, HTML, CSS, Bootstrap.",
       firstImg: "./img/projects/shopping-cart/without-cart.png",
       secondImg: "./img/projects/shopping-cart/with-cart.png",
@@ -104,7 +104,7 @@ const allProjectItems = [
     date: "december, 2022",
     modalID: "react-accordion",
     moreInfo: {
-      description: "Accordion card app",
+      description: "The project through which the user can view the questions and on pressing the drop-down button, see the corresponding answer to the question.",
       tools: "React, JavaScript, Gulp.js, HTML, SCSS, CSS.",
       firstImg: "./img/projects/accordion/card1.png",
       secondImg: "./img/projects/accordion/card2.png",
@@ -118,7 +118,7 @@ const allProjectItems = [
     date: "december, 2022",
     modalID: "react-form",
     moreInfo: {
-      description: "Registration form with validation using React and React Hook Form library",
+      description: "Registration form through which the user enters data. Errors occur if invalid data is entered.",
       tools: "React, React Hook Form, JavaScript, HTML, CSS.",
       firstImg: "./img/projects/react-form/validation.png",
       secondImg: "./img/projects/react-form/with-data.png",
@@ -146,7 +146,7 @@ const allProjectItems = [
     date: "january, 2023",
     modalID: "rating-card",
     moreInfo: {
-      description: "Interactive rating component with React and TypeScript",
+      description: 'The project where users can rate a support request on a range of 1 to 5. After giving a rating, a "thank you" template is displayed.',
       tools: "React, TypeScript, Gulp.js, HTML, SCSS, CSS.",
       firstImg: "./img/projects/rating/active.png",
       secondImg: "./img/projects/rating/thank-you.png",
@@ -174,7 +174,7 @@ const allProjectItems = [
     date: "december, 2022",
     modalID: "nft-card",
     moreInfo: {
-      description: "NFT preview card with React and TypeScript",
+      description: "NFT preview card using React and TypeScript",
       tools: "React, TypeScript, HTML, CSS.",
       firstImg: "./img/projects/nft-card/nft-hover.png",
       secondImg: "./img/projects/nft-card/nft-hover-1.png",
