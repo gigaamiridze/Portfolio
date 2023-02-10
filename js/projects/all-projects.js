@@ -192,7 +192,7 @@ const allProjectItems = [
       tools: "Python, Flask, JavaScript, Gulp.js, HTML, SCSS/CSS.",
       firstImg: "./img/projects/photolens/home.png",
       secondImg: "./img/projects/photolens/shop-route.png",
-      url: "https://github.com/justtfelix/Photolens",
+      url: "https://photolenss.herokuapp.com",
     }
   },
   {
