@@ -42,6 +42,20 @@ const frontProjectItems = [
     }
   },
   {
+    img: "./img/projects/tip-calculator/calculator.png",
+    className: "tip-calculator",
+    name: "Tip Calculator",
+    date: "February, 2023",
+    modalID: "tip-calculator-front",
+    moreInfo: {
+      description: "The purpose of the project is to take values from the input fields and select the tip percentage by pressing a button. After completion, the amount to be paid based on the entered value will be displayed.",
+      tools: "React, TypeScript, Styled Components, HTML.",
+      firstImg: "./img/projects/tip-calculator/active.png",
+      secondImg: "./img/projects/tip-calculator/error.png",
+      url: "https://tip-calculator-rc.vercel.app",
+    }
+  },
+  {
     img: "./img/projects/shopping-cart/store.png",
     className: "shopping-cart",
     name: "Shopping Cart",
